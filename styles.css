@@ -1,0 +1,74 @@
+body {
+background-color: lightblue;    
+width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+form {
+      color: #3498db;
+      font-size: 22px;
+      font-weight: bold;
+
+}
+
+input[type="text"] {
+    background-color: f8f8f8;
+}
+
+
+#addNeed {
+    background-color: f8f8f8;
+    color: #3498db;
+    font-weight: bold;
+
+}
+
+#addHave {
+    background-color: f8f8f8;
+    color: #3498db;
+    font-weight: bold;
+
+}
+
+h1 {
+    color: #4183D7;
+    font-size: 50px;
+}
+
+h2 {
+    color: #4183D7;
+    font-size: 42px;
+    letter-spacing: -2px;
+}
+/* background color in code below doesnt do anything if you want to clean up code remove it */
+.list {
+    list-style: none;
+    background-color:f8f8f8; 
+    border: 1px solid #dedede;
+
+}
+
+.list li {
+    list-style: none;
+    background-color:f8f8f8; 
+    border: 1px dotted #ccc;
+    text-indent: 25px;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+  color: black;
+}
+
+
+.list li a {
+    float: right;
+    text-decoration: none;
+    color: green;
+}
+
+
+
+

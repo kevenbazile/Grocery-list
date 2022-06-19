@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HoodRamsey's Grocery List</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="">
+
+</head>
+<!-- this is where the form of the needs and wants is made -->
+
+<body>
+    <h1>HoodRamsey's Grocery List</h1>
+    <form action="add" method="get">
+        <label>Add Item: </label>
+        <input type="text" name="item">
+        <input id="addNeed" type="submit" value="Need">
+        <input id="addHave" type="submit" value="Have">
+    </form>
+    <h2>Need: </h2>
+    <ul class="list">
+        <li><input type="checkbox" name="item">Milk<a href="images/Almond.jpg">&#10004;</a></li>
+        <li><input type="checkbox" name="item">Eggs<a href="images/eggs.jpg">&#10004;</a></li>
+        <li><input type="checkbox" name="item">Spices<a href="images/spices.jpg">&#10004;</a></li>
+        <li><input type="checkbox" name="item">Bacon<a href="images/Bacon.jpg">&#10004;</a></li>
+
+
+    </ul>
+
+    <h2>Have: </h2>
+    <ul class="list">
+        <li><input type="checkbox" name="item">Ramen Noodles<a href="images/ramen.jpg">&#10004;</a></li>
+        </li>
+        <li><input type="checkbox" name="item">Pork Chops<a href="images/porkchop.jpg">&#10004;</a></li>
+        </li>
+        <li><input type="checkbox" name="item">Cereal<a href="images/cereal.jpg">&#10004;</a></li>
+        </li>
+        <li><input type="checkbox" name="item">Utensils<a href="images/utensils.jpg">&#10004;</a></li>
+        </li>
+
+    </ul>
+</body>
+
+</html>
